@@ -38,9 +38,23 @@ consume for hours, but with study concepts instead of brain-rot.
 - Generate TTS audio per script
 - Compose vertical video with **fixed meme background pack**
 - Auto-captions from TTS transcript
-- Download ZIP of reels
+- Download or view reels
 
-_No accounts, no database, no social posting — pure one-shot pipeline._
+### Current Version TODO
+
+Backend
+- [ ] Create project structure
+- [ ] Implement functionality to extract text from PDFs
+- [ ] Integrate Gemini API to generate scripts
+- [ ] Set up other AI APIs for voice-over
+- [ ] Implement reel creation pipeline
+- [ ] Set up basic REST endpoints
+Storage
+- [ ] Set up DB
+- [ ] Set up S3
+Frontend
+- [ ] Create frontend to upload files
+- [ ] Create frontend to view/download reels
 
 ---
 
