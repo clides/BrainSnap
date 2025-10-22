@@ -1,0 +1,84 @@
+# -----------------------------
+# PYTHON / FLASK
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.manifest
+.python-version
+
+# virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# logs & runtime
+*.log
+*.pid
+*.sqlite3
+instance/
+*.db
+*.db-journal
+
+# -----------------------------
+# CELERY / JOB QUEUES
+# -----------------------------
+celerybeat-schedule
+celerybeat.pid
+
+# -----------------------------
+# ENVIRONMENT / SECRETS
+# -----------------------------
+.env
+.env.*
+!.env.example
+
+# -----------------------------
+# MEDIA / OUTPUT GENERATED
+# -----------------------------
+/tmp/
+/cache/
+/output/
+/rendered/
+/generated/
+/uploads/
+/media/
+/staticfiles/
+
+# any generated zip/video/audio from pipeline
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.srt
+*.zip
+
+# -----------------------------
+# REACT / NEXT FRONTEND
+# -----------------------------
+/node_modules/
+/.next/
+/out/
+/coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# -----------------------------
+# EDITORS / OS / MISC
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
